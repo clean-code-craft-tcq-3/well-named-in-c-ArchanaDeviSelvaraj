@@ -1,3 +1,4 @@
+#include "declare.h"
 void testPairToNumber(enum MajorColor major,enum MinorColor minor,int expectedPairNumber)
 {
     ColorPair colorPair;
