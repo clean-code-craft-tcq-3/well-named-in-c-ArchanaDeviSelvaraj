@@ -1,4 +1,3 @@
-#include "declare.h"
 #include <stdio.h>
 void ColorPairToString(const ColorPair* colorPair, char* buffer) 
 {
