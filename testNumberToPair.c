@@ -1,4 +1,5 @@
 #include "declare.h"
+#include <stdio.h>
 void testNumberToPair(int pairNumber,enum MajorColor expectedMajor,enum MinorColor expectedMinor)
 {
     ColorPair colorPair = GetColorFromPairNumber(pairNumber);
