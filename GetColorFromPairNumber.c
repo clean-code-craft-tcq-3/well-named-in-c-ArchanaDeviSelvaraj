@@ -1,4 +1,3 @@
-#include "declare.h"
 ColorPair GetColorFromPairNumber(int pairNumber) 
 {
     ColorPair colorPair;
