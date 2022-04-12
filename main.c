@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <assert.h>
-#include "declare.h"
-
 int main() {
     testNumberToPair(4, WHITE, BROWN);
     testNumberToPair(5, WHITE, SLATE);
