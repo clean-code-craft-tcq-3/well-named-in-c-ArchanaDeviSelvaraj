@@ -1,10 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
 #include "ColorPairToString.c"
-#include "GetColorFromPairNumber.c"
-#include "GetPairNumberFromColor.c"
-#include "testNumberToPair.c"
-#include "testPairToNumber.c"
+
 int main() {
     testNumberToPair(4, WHITE, BROWN);
     testNumberToPair(5, WHITE, SLATE);
