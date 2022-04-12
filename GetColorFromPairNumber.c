@@ -1,4 +1,4 @@
-#inclue "ColorPairToString.c"
+#include "ColorPairToString.c"
 
 ColorPair GetColorFromPairNumber(int pairNumber) 
 {
