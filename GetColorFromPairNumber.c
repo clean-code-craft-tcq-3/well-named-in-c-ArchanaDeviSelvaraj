@@ -1,3 +1,5 @@
+#inclue "ColorPairToString.c"
+
 ColorPair GetColorFromPairNumber(int pairNumber) 
 {
     ColorPair colorPair;
