@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
+#include "ColorPairToString.c"
+
 int main() {
     testNumberToPair(4, WHITE, BROWN);
     testNumberToPair(5, WHITE, SLATE);
