@@ -13,6 +13,12 @@ int main() {
     enum MajorColor majorColor;
     enum MinorColor minorColor;
     } ColorPair;
+    
+    void ColorPairToString(const ColorPair* , char*);
+    ColorPair GetColorFromPairNumber(int);
+    int GetPairNumberFromColor(const ColorPair* );
+    void testNumberToPair(int ,enum MajorColor ,enum MinorColor );
+    void testPairToNumber(enum MajorColor ,enum MinorColor ,int );
     testNumberToPair(4, WHITE, BROWN);
     testNumberToPair(5, WHITE, SLATE);
 
