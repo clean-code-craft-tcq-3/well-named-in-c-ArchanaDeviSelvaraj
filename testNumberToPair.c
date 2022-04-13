@@ -1,5 +1,6 @@
 #include "declare.h".
 #include "GetColorFromPairNumber.c"
+#include "ColorPairToString.c"
 
     enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
     enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
