@@ -1,4 +1,5 @@
-#include "declare.h"
+#include "declare.h".
+#include "GetColorFromPairNumber.c"
 
     enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
     enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
