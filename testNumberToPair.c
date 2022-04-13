@@ -1,4 +1,3 @@
-#include "declare.h"
 #include "GetColorFromPairNumber.c"
 #include "ColorPairToString.c"
 
