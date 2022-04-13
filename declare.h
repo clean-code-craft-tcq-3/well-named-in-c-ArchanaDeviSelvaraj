@@ -7,8 +7,4 @@ const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
 const int MAX_COLORPAIR_NAME_CHARS = 16;
 int numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
 
-void ColorPairToString(const ColorPair* , char*);
-ColorPair GetColorFromPairNumber(int);
-int GetPairNumberFromColor(const ColorPair* );
-void testNumberToPair(int ,enum MajorColor ,enum MinorColor );
-void testPairToNumber(enum MajorColor ,enum MinorColor ,int );
+
