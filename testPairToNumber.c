@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include "declare.h"
 
-int GetPairNumberFromColor(const ColorPair* );
 void testPairToNumber(enum MajorColor major,enum MinorColor minor,int expectedPairNumber)
 {
 ColorPair colorPair;
