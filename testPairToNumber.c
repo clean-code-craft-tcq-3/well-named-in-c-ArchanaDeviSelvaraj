@@ -4,8 +4,6 @@
    
 void testPairToNumber(enum MajorColor major,enum MinorColor minor,int expectedPairNumber)
 {
-const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
-const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
 ColorPair colorPair;
     colorPair.majorColor = major;
     colorPair.minorColor = minor;
