@@ -1,4 +1,3 @@
-#include "GetColorFromPairNumber.c"
 #include "ColorPairToString.c"
 #include <assert.h>
 const int MAX_COLORPAIR_NAME_CHARS = 16;
