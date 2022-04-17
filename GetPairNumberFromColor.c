@@ -10,6 +10,6 @@
     enum MajorColor majorColor;
     enum MinorColor minorColor;
     } ColorPair;*/
-int GetPairNumberFromColor(const ColorPair* colorPair) {
-    return colorPair->majorColor * numberOfMinorColors + colorPair->minorColor + 1;
+int GetPairNumberFromColor(const ColorPair* ColorPair) {
+    return ColorPair->majorColor * numberOfMinorColors + ColorPair->minorColor + 1;
 }
