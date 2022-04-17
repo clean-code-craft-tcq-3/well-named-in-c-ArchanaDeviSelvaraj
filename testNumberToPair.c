@@ -1,9 +1,7 @@
 #include <assert.h>
 #include <stdio.h>
 #include "declare.h"
-void ColorPairToString(const ColorPair* , char*);
-ColorPair GetColorFromPairNumber(int);
-    
+
 void testNumberToPair(int pairNumber,enum MajorColor expectedMajor,enum MinorColor expectedMinor)
 {
 const int MAX_COLORPAIR_NAME_CHARS = 16;
