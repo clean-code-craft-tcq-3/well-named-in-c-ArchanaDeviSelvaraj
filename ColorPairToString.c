@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <declare.h>
+#include "declare.h"
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
    
 
