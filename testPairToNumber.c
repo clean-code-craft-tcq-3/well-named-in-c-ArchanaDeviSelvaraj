@@ -1,5 +1,6 @@
 //#include "GetPairNumberFromColor.c"
 #include <assert.h>
+#include <stdio.h>
    
 void testPairToNumber(enum MajorColor major,enum MinorColor minor,int expectedPairNumber)
 {
