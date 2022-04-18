@@ -1,6 +1,5 @@
 #include "declare.h"
 #include <stdio.h>
-
 void MapColornamestoPairnumber()
 {
   for (int i=1; i<=25 ; i++)
