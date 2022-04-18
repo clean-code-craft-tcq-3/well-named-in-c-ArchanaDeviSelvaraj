@@ -1,4 +1,4 @@
-#include "declare.h>
+#include "declare.h"
 void MapColornamesPairnumber()
 {
   const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
