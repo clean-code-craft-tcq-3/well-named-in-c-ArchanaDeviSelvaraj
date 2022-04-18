@@ -1,5 +1,5 @@
 #include "declare.h"
-#include "stdio.h"
+#include <stdio.h>
 
 void MapColornamesPairnumber()
 {
