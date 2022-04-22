@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "declare.h"
+#include "ColorCoding.h"
 
 int GetPairNumberFromColor(const ColorPair* colorPair) 
 {
