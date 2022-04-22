@@ -8,6 +8,6 @@ void PrintReferenceManual()
    ColorPair colorPair = GetColorFromPairNumber(i);
    char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
    ColorPairToString(&colorPair, colorPairNames);
-   printf("Pair number:%d:%s\n", i,colorPairNames);
+   printf("Pair number:%d:%s\n", pairNumber,colorPairNames);
   }
 }
