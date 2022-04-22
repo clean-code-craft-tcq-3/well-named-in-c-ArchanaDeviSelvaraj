@@ -4,7 +4,7 @@
 
 void testPairToNumber(enum MajorColor major,enum MinorColor minor,int expectedPairNumber)
 {
-ColorPair colorPair;
+    ColorPair colorPair;
     colorPair.majorColor = major;
     colorPair.minorColor = minor;
     int pairNumber = GetPairNumberFromColor(&colorPair);
