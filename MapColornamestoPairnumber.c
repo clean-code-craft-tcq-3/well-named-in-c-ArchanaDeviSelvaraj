@@ -1,4 +1,4 @@
-#include "declare.h"
+#include "ColorCoding.h"
 #include <stdio.h>
 void MapColornamestoPairnumber()
 {
