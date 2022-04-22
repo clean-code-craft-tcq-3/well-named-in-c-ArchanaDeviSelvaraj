@@ -1,6 +1,6 @@
 #include "ColorCoding.h"
 #include <stdio.h>
-void MapColornamestoPairnumber()
+void PrintReferenceManual()
 {
   for (int i=1; i<=25 ; i++)
   {
