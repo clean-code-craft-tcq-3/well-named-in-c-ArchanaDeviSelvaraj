@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "declare.h"
+#include "ColorCoding.h"
 void ColorPairToString(const ColorPair* colorPair, char* buffer) 
 {
 const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
