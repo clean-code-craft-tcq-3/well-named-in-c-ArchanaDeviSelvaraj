@@ -2,7 +2,8 @@
 #include <stdio.h>
 void PrintReferenceManual()
 {
-  for (int pairNumber=1; pairNumber<=25 ; pairNumber++)
+  maxpairnumber = numberOfMajorColors * numberOfMinorColors;
+  for (int pairNumber=1; pairNumber<=maxpairNumber ; pairNumber++)
   {
    const int MAX_COLORPAIR_NAME_CHARS = 16;
    ColorPair colorPair = GetColorFromPairNumber(pairNumber);
