@@ -4,11 +4,11 @@
     enum MajorColor majorColor;
     enum MinorColor minorColor;
     } ColorPair;
-    extern const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
-    extern const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
-    extern int numberOfMajorColors = sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
-    extern int numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
-    extern const int MAX_COLORPAIR_NAME_CHARS = 16;
+    extern const char* MajorColorNames[];
+    extern const char* MinorColorNames[];
+    extern int numberOfMajorColors;
+    extern int numberOfMinorColors;
+    extern const int MAX_COLORPAIR_NAME_CHARS;
     void ColorPairToString(const ColorPair* , char*);
     ColorPair GetColorFromPairNumber(int);
     int GetPairNumberFromColor(const ColorPair* );
