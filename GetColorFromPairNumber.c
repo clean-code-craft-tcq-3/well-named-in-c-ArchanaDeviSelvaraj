@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "declare.h"
+#include "ColorCoding.h"
 ColorPair GetColorFromPairNumber(int pairNumber) 
 {
 const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
